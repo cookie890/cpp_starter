@@ -1,0 +1,58 @@
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Ignore CMake build directories
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Ignore generated documentation
+/doc/
+/docs/
+/*.d
+
+# Ignore Vim swap and backup files
+*.swp
+*.swo
+*.swn
+*.swx
+*.un~
+*.bak
+
+# Ignore other temporary files
+*.tmp
+*.temp
+*.log
+
+# Ignore user-specific config files
+*.user
+*.userprefs
+*.orig
+
+# Ignore any build directories
+/build/
+/bin/
+/lib/
+/dist/
+
+# Ignore WSL-specific files
+*.~*~*
+
+# Ignore compiled Python files (if using scripts)
+__pycache__/
+*.py[cod]
+
+# Ignore VS Code specific files
+.vscode/
+
+# Ignore any files related to package managers (if used)
+/node_modules/
+.idea/
+
