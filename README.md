@@ -1,3 +1,5 @@
+hi
+
 ## File organization
 You will notice there are some folders for each chapter i.e `01` 
 This is where you can complete your exercises for each chapter
