@@ -2,8 +2,8 @@
 
 // result is that a > b > c
 int main () {
-  int a, b, c, temp;
-  cout << "enter some number" << endl;
+  string a, b, c, temp;
+  cout << "enter three strings" << endl;
   cin >> a >> b >> c;
   cout << "INPUT: " << a << "," << b << "," << c << endl;
   //sort em
@@ -23,5 +23,5 @@ int main () {
     c = temp;
   }
 
-  cout << "OUTPUT: " << a << "," << b << "," << c << endl;
+  cout << "OUTPUT: " << c << "," << b << "," << a << endl;
 }
